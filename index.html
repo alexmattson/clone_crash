@@ -3,8 +3,28 @@
     <title>Asteroids</title>
   </head>
 
+  <style>
+
+    body {
+      background: #c0dfd9;
+    }
+
+    .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .gameView {
+      border: 1px solid #222;
+    }
+  </style>
+
   <body>
-    <canvas id='gameView'></canvas>
+
+    <div class='container'>
+      <canvas id='gameView' class='gameView'></canvas>
+    </div>
 
     <script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
     <script type="application/javascript" src="vendor/keymaster.js"></script>
