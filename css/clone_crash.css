@@ -1,5 +1,5 @@
 body {
-  background: #c0dfd9;
+  background: #daf9f2;
   font-family: 'Roboto', sans-serif;
   color: #3b3a36;
 }
@@ -31,9 +31,18 @@ h1 {
   position: relative;
   top: -450px;
   height: 450px;
+}
+
+.background {
+  height: 175px;
+  width: 175px;
+  position: absolute;
+  right: 50%;
+  top: 165px;
   background-image: url(https://s17.postimg.org/9334fojcv/moon.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 100%;
 }
 
 .home-screen h3:first-of-type {
@@ -53,4 +62,75 @@ h1 {
   display: none;
   align-items: center;
   justify-content: center;
+}
+
+.end-screen {
+  height: 500px;
+  width: 500px;
+
+  background: rgba(0,0,0,0.2);
+  margin: 0 auto;
+
+  position: relative;
+  top: -500;
+
+  color: white;
+
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* buttons */
+
+.btn {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.easy-btn {
+  background: #c0dfd9;
+  color: #d7f8f2;
+}
+
+.easy-btn:hover {
+  background: #a3bdb8;
+  color: #c2ded9;
+}
+
+.medium-btn {
+  background: #babdb7;
+  color: #e9ece5;
+}
+
+.medium-btn:hover {
+  background: #9b9e98;
+  color: #c5c7c2;
+}
+
+.hard-btn {
+  background: #b3c2bf;
+  color: #ccddd9;
+}
+
+.hard-btn:hover {
+  background: #93a09e;
+  color: #b8c7c4;
+}
+
+.reset-btn {
+  margin-top: 75px;
+  background: #e28282;
+  color: #8e5050;
+}
+
+.reset-btn:hover {
+  background: #bb6b6b;
+  color: #713f3f;
 }
