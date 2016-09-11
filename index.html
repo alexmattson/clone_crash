@@ -1,33 +1,32 @@
 <html>
   <head>
     <title>Asteroids</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/clone_crash.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script type="application/javascript" src="vendor/keymaster.js"></script>
+    <script type="application/javascript" src="bundle.js"></script>
   </head>
-
-  <style>
-
-    body {
-      background: #c0dfd9;
-    }
-
-    .container{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .gameView {
-      border: 1px solid #222;
-    }
-  </style>
 
   <body>
 
     <div class='container'>
       <canvas id='gameView' class='gameView'></canvas>
     </div>
+    <div class='home-screen' id='homeScreen'>
+      <h1>CLONE</h1>
+      <h1>CRASH</h1>
+      <h3>Collect coins.</h3>
+      <h3>Don't crash.</h3>
+      <h3>How hard can it be?</h3>
+      <section class="buttons">
+      </section>
+    </div>
+    <div class='pause-screen' id='pauseScreen'>
+      <h3>PAUSED</h3>
+    </div>
 
-    <script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
-    <script type="application/javascript" src="vendor/keymaster.js"></script>
-    <script type="application/javascript" src="bundle.js"></script>
   </body>
 </html>
