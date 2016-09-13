@@ -134,3 +134,22 @@ h1 {
   background: #bb6b6b;
   color: #713f3f;
 }
+
+.contact-info {
+  position: absolute;
+  top: 505px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.link {
+  height: 52px;
+  opacity: 0.25;
+  margin: 10px;
+}
+
+.link:hover {
+  opacity: 1;
+  cursor: pointer;
+}
