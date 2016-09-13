@@ -12,6 +12,16 @@ A javscript based game where you collect coins. As you do, clones spawn followin
 
 [Demo Link](https://amattson21.github.io/clone_crash/)
 
+
+## Screen Shots
+
+#### Easy
+![screen shot](https://s3.postimg.org/4gn6s33lv/Screen_Shot_2016_09_13_at_9_33_25_AM.png)
+#### Medium
+![screen shot](https://s16.postimg.org/hurk32gt1/Screen_Shot_2016_09_13_at_9_35_27_AM.png)
+#### Hard
+![screen shot](https://s16.postimg.org/i0ky673tx/Screen_Shot_2016_09_13_at_9_48_52_AM.png)
+
 ## Some Interesting Features
 
 #### Vector minipulation
